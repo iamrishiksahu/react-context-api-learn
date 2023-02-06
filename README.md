@@ -37,3 +37,6 @@ export const Dashboard = () => {
 }
 
 ### Above is the correct way of implementing the context api to make data available between components without props drilling.
+
+
+- Rishik Sahu (iamrishiksahu@gmail.com)
