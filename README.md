@@ -21,7 +21,9 @@ export const AuthProvider = ({children}) => {
 
 ## In Step 3: As described above, you need to destructure the children item from the argument of the component and then create a provider element to specify the data or functions which will be available in the context.
 
-## Step 4: Create the child compnent and implement the context as folliws:
+## Step 4: Now wrap the <AuthProvider> component as the parent component of the components where you want the context to be available.
+
+## Step 5: Create the child compnent and implement the context as folliws:
 
 export const Dashboard = () => {
 
@@ -39,4 +41,4 @@ export const Dashboard = () => {
 ### Above is the correct way of implementing the context api to make data available between components without props drilling.
 
 
-- Rishik Sahu (iamrishiksahu@gmail.com)
+-By Rishik Sahu (iamrishiksahu@gmail.com)
